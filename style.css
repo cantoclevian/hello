@@ -1,0 +1,62 @@
+/* this css styling for beginers
+
+
+
+<!--internal css styling-->
+<style>
+
+body{
+    background-color: white;
+    color: cyan;
+
+    }
+h1{
+    color: aqua;
+
+}
+
+<!--using class-->
+.blue{
+    color: black;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+#the-title {
+    text-decoration: underline;
+ 
+}
+<!--grouping CSS-->
+h1, p,{
+    
+}
+</style>
+
+<!---inline css-->
+<body>
+    <h1 style="font-size: 10px;">this heading</h1>
+</body>
+<!---selectors css-->
+<body>
+    <div> this is div</div>
+    <h1 class=" blue uppercase"> CYBER GOURD HUB</h1>
+    <!--selecting by id-->
+    
+    <hi class="Blue uppercase" id="the-title"> </hi>
+    <p> </p>
+    <!--nested css-->
+    <style>
+        /* this is commenting in css
+        to lis;
+         
+        p strong {color: brown;}
+    </style>
+    <div>
+        <p>
+            <strong> target</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati facilis illum, totam eius earum nesciunt cum inventore repellat? Mollitia corporis tenetur quod sed saepe adipisci unde quasi porro aperiam modi.
+        </p>
+    </div>
+
+    
+
+*/
